@@ -46,7 +46,7 @@
                      <div class="container-fluid">
                         <div class="row mt-1">                   
                             <div class="col-md-12">
-                                <span><p class="text-center text-secondary">© Dominus 2021</p></span>
+                                <span><p class="text-center text-secondary">© Backend 2021</p></span>
                             </div>
                         </div>
                     </div>                     
