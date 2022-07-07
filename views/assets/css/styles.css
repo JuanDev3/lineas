@@ -1,0 +1,136 @@
+:root {
+  --primary: #474646;
+  --light: white;
+  --grey: #f5f6fa;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Muli", sans-serif;
+  font-weight: 300;
+  color: var(--primary);
+}
+
+a:hover {
+  text-decoration: none;
+}
+.text-primary {
+  color: var(--primary) !important;
+}
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.bg-light {
+  background-color: var(--light) !important;
+}
+
+.bg-grey {
+  background-color: var(--grey) !important;
+}
+
+.bg-mix {
+  background: linear-gradient(180deg, var(--light) 50%, var(--grey) 0);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border: 0;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary);
+}
+
+#sidebar-container {
+  min-height: 100vh;
+  margin-left: -16rem;
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-container .logo {
+  padding: 0.875rem 1.25rem;
+}
+
+#sidebar-container .menu {
+  width: 16rem;
+}
+
+#content-wrapper.toggled #sidebar-container {
+  margin-left: 0;
+}
+
+#content {
+  overflow-y: auto;
+  height: 100vh;
+  padding-bottom: 5rem;
+}
+
+.avatar {
+  max-width: 35px;
+}
+
+.btn-search {
+  right: 0;
+}
+
+.stat {
+  border-right: 1px solid var(--grey);
+}
+
+@media (max-width: 768px) {
+  .stat {
+    border: 0;
+  }
+}
+@media (min-width: 768px) {
+  #sidebar-container {
+    margin-left: 0;
+  }
+  #content-wrapper.toggled #sidebar-container {
+    margin-left: -18rem;
+  }
+}
+
+
+
+.img-login{
+  background:linear-gradient(90deg, rgba(0,0,0,0.3029586834733894) 0%,
+   rgba(3,3,3,0.3029586834733894) 100%), url('../img/nosotros-background-01.jpg');
+  background-size: cover;
+  height: auto;
+  background-position: center;
+}
+  .limiter {
+    width: 100%;
+    margin: 0 auto;
+   
+
+  }
+  .container-login100 {
+    font-family: var(--Roboto);
+    width: 100%;  
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;;
+  }
+  .logo{
+    margin: auto;
+    display: block;
+  }
+  .al{
+    text-align: left
+  }
+
