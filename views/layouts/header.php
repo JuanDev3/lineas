@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.0/css/all.css">
     <link rel='shortcut icon' type='image/x-icon' href='<?=base_url?>views/assets/img/logo_2.png'/>
 
-    <title>Dominus | Bolsa de Trabajo</title>
+    <title>Reportes | Backend </title>
 </head>
 
 <body>
@@ -37,7 +37,7 @@
         <!-- Sidebar -->
         <div id="sidebar-container" class="bg-success">
             <div class="logo">
-                <h5 mt-2> <a class="text-light font-weight-bold mb-0 text-center" href="<?= base_url ?>admin/dashboard"> Bolsa de Trabajo</a> </h5>               
+                <h5 mt-2> <a class="text-light font-weight-bold mb-0 text-center" href="<?= base_url ?>admin/dashboard"> Reportes</a> </h5>               
             </div>
            
                 <div class="menu">         
