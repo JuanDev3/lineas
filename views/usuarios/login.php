@@ -27,11 +27,11 @@
                         </div>                                 
                         <div class="col-xs-5">
                             <label for="email" class="form-label"> </label>                            
-                            <input placeholder="Usuario" name="user" type="text" class="form-control" id="user" aria-describedby="emailHelp" required>                                                         
+                            <input style="text-transform:uppercase" placeholder="Usuario" name="user" type="text" class="form-control" id="user" aria-describedby="emailHelp" required>                                                         
                         </div>                       
                         <div class="col-xs-5">
                             <label for="clave" class="form-label"></label>
-                            <input placeholder="Contraseña" name="clave" type="password" class="form-control" id="clave" required>
+                            <input style="text-transform:uppercase" placeholder="Clave" name="clave" type="password" class="form-control" id="clave" required>
                         </div>  
                         <div class="d-grid gap-2 col-12 mx-auto">        
                             <button style="background-color:#00559C;color: #FFFFFF;" class="btn btn-block my-4 shadow" type="submit" name="" value="">Iniciar sesión</button>
