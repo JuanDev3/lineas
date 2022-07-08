@@ -102,7 +102,7 @@ a:hover {
 
 .img-login{
   background:linear-gradient(90deg, rgba(0,0,0,0.3029586834733894) 0%,
-   rgba(3,3,3,0.3029586834733894) 100%), url('../img/nosotros-background-01.jpg');
+   rgba(3,3,3,0.3029586834733894) 100%), url('../img/fondo.jpg');
   background-size: cover;
   height: auto;
   background-position: center;
