@@ -114,5 +114,4 @@ class Admin{
 		return $result;
 	}
 
-
 }
